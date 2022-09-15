@@ -16,7 +16,7 @@ npm install'''
 
     stage('Cucumber Tests') {
       steps {
-        sh 'npm run acceptance:tests'
+        sh './jenkins/scripts/test.sh'
       }
     }
 
