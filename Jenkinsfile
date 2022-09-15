@@ -16,7 +16,7 @@ pipeline {
 
     stage('Cucumber Tests') {
       steps {
-        sh './jenkins/scripts/test.sh'
+        sh 'node --version'
       }
     }
 
